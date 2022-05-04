@@ -3,3 +3,8 @@ import sys
 
 input = sys.stdin.readline
 n = int(input())
+
+
+import sys
+
+n, w = map(int, sys.stdin.readline().strip().split())

@@ -16,3 +16,4 @@ def is_prime_number(x):
     return True # 소수임
 
 
+"AS".isalpha()
