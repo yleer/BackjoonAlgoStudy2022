@@ -28,6 +28,13 @@ import heapq
 n = 3
 
 a = [4,5,2,1,3,7,6,8,9]
+print(a)
+heapq.heapify(a)
+print(a)
+heapq.heappush(a,2)
+print(a)
+c=heapq.heappop(a)
+print(c)
 
 # iterable에 의해 정의된 데이터 집합에서 n 개의 가장 큰 요소로 구성된 리스트를 반환합니다.
 large = heapq.nlargest(n, a, key=None)
@@ -40,7 +47,7 @@ small = heapq.nsmallest(n, a, key=None)
 
 # 위 두 함수는 n이 너무 크면 안좋음. 작을때 사용하자.
 
-print(large,small)
+# print(large,small)
 
 # heapq.heappushpop(heap, item)
 

@@ -6,9 +6,7 @@
 # 이차원 배열일 때
 
 
-
-
-array = [[1,2], [2,3],[4,4]]
+array = [[100,4], [12,2],[2,3]]
 # 첫번째 원소로 정렬 하기
 
 # 람다 사용할때 x[0] -> 0번째 원소로 정렬
@@ -17,23 +15,24 @@ array = [[1,2], [2,3],[4,4]]
 # -x[1] -> 0번쨰 원소로 반대로 정렬
 array.sort(key = lambda x:x[0])
 
+print(array)
 
 array.sort(key = lambda x:(x[0], x[1]))
-
+print(array)
 array.sort(key = lambda x:(x[1], x[0]))
 
-
+print(array)
 
 
 
 array.sort(key = lambda x:(-x[0], x[1]))
-
+print(array)
 array.sort(key = lambda x:(x[0], -x[1]))
 
+print(array)
 
-
- {
-     1: [[1, 5]],
-     2: [[0, 4, 5], [2, 3]],
-     3: [[0, 1, 5], [2, 4]]
-  }
+ # {
+ #     1: [[1, 5]],
+ #     2: [[0, 4, 5], [2, 3]],
+ #     3: [[0, 1, 5], [2, 4]]
+ #  }

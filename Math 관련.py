@@ -1,8 +1,8 @@
-# import math
+import math
 #
 #
 # math.comb()
-# math.pow()
+# math.pow(x,y)
 # math.factorial()
 #
 #
